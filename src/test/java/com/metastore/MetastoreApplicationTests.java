@@ -1,4 +1,4 @@
-package com.metastore.metastore;
+package com.metastore;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
