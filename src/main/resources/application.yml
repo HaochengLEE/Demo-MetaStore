@@ -1,3 +1,13 @@
 server:
   port: 7777
   context-path: /metastore
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/metastore?useSSL=false
+  jpa:
+    hibernate:
+     ddl-auto: update
+    database: mysql
